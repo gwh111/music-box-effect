@@ -15,6 +15,11 @@
 		D82A023620B402B300C91102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A023520B402B300C91102 /* main.m */; };
 		D82A024020B402B300C91102 /* testmusicfadeinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A023F20B402B300C91102 /* testmusicfadeinTests.m */; };
 		D82A024B20B402B300C91102 /* testmusicfadeinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A024A20B402B300C91102 /* testmusicfadeinUITests.m */; };
+		D82A025A20B4040E00C91102 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82A025920B4040E00C91102 /* AVFoundation.framework */; };
+		D82A025C20B4049D00C91102 /* 周杰伦这所有的一切.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D82A025B20B4049D00C91102 /* 周杰伦这所有的一切.mp3 */; };
+		D82A025F20B40CEC00C91102 /* MusicBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A025E20B40CEC00C91102 /* MusicBox.m */; };
+		D82A026120B40D1700C91102 /* 女再见1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D82A026020B40D1700C91102 /* 女再见1.mp3 */; };
+		D82A026320B413A400C91102 /* 战斗2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D82A026220B413A400C91102 /* 战斗2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		D82A024620B402B300C91102 /* testmusicfadeinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testmusicfadeinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82A024A20B402B300C91102 /* testmusicfadeinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testmusicfadeinUITests.m; sourceTree = "<group>"; };
 		D82A024C20B402B300C91102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82A025920B4040E00C91102 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D82A025B20B4049D00C91102 /* 周杰伦这所有的一切.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "周杰伦这所有的一切.mp3"; sourceTree = "<group>"; };
+		D82A025D20B40CEC00C91102 /* MusicBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicBox.h; sourceTree = "<group>"; };
+		D82A025E20B40CEC00C91102 /* MusicBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicBox.m; sourceTree = "<group>"; };
+		D82A026020B40D1700C91102 /* 女再见1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "女再见1.mp3"; sourceTree = "<group>"; };
+		D82A026220B413A400C91102 /* 战斗2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "战斗2.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82A025A20B4040E00C91102 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,7 @@
 				D82A023E20B402B300C91102 /* testmusicfadeinTests */,
 				D82A024920B402B300C91102 /* testmusicfadeinUITests */,
 				D82A022420B402B200C91102 /* Products */,
+				D82A025820B4040E00C91102 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +118,11 @@
 				D82A022720B402B200C91102 /* AppDelegate.m */,
 				D82A022920B402B200C91102 /* ViewController.h */,
 				D82A022A20B402B200C91102 /* ViewController.m */,
+				D82A026220B413A400C91102 /* 战斗2.mp3 */,
+				D82A026020B40D1700C91102 /* 女再见1.mp3 */,
+				D82A025B20B4049D00C91102 /* 周杰伦这所有的一切.mp3 */,
+				D82A025D20B40CEC00C91102 /* MusicBox.h */,
+				D82A025E20B40CEC00C91102 /* MusicBox.m */,
 				D82A022C20B402B200C91102 /* Main.storyboard */,
 				D82A022F20B402B300C91102 /* Assets.xcassets */,
 				D82A023120B402B300C91102 /* LaunchScreen.storyboard */,
@@ -130,6 +148,14 @@
 				D82A024C20B402B300C91102 /* Info.plist */,
 			);
 			path = testmusicfadeinUITests;
+			sourceTree = "<group>";
+		};
+		D82A025820B4040E00C91102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82A025920B4040E00C91102 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82A026320B413A400C91102 /* 战斗2.mp3 in Resources */,
+				D82A026120B40D1700C91102 /* 女再见1.mp3 in Resources */,
 				D82A023320B402B300C91102 /* LaunchScreen.storyboard in Resources */,
 				D82A023020B402B300C91102 /* Assets.xcassets in Resources */,
+				D82A025C20B4049D00C91102 /* 周杰伦这所有的一切.mp3 in Resources */,
 				D82A022E20B402B200C91102 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +294,7 @@
 				D82A022B20B402B200C91102 /* ViewController.m in Sources */,
 				D82A023620B402B300C91102 /* main.m in Sources */,
 				D82A022820B402B200C91102 /* AppDelegate.m in Sources */,
+				D82A025F20B40CEC00C91102 /* MusicBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
